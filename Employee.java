@@ -13,9 +13,9 @@ public class Employee {
     }
 
     public double CalculateSalary(){
-        double koncowaPensja = salary + bonus*salary;
-        koncowaPensja -=tax*koncowaPensja;
-        return koncowaPensja;
+        double finalSalary = salary + bonus*salary;
+        finalSalary -=tax*finalSalary;
+        return finalSalary;
     }
 
     public String Name(){
